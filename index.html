@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker </title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+  <div class="container">
+    <h2>💰 Expense Tracker</h2>
+
+    <input type="number" id="amount" placeholder="Enter Amount (₹)">
+   <select id="category">
+  <option value="">Select Category</option>
+  <option value="Food">Food</option>
+    <option value="Petrol">Petrol</option>
+  <option value=" Bus"> Bus Transport</option>
+  <option value="Train">Train Transport </option>
+  <option value="metro">Metro Transport </option>
+  <option value="Shopping">Shopping</option>
+  <option value="Bills">Bills</option>
+  <option value="Other">Other</option>
+</select>
+
+    <input type="date" id="date">
+
+ <button onclick="addExpense()">➕ ADD EXPENSE</button>
+
+
+    <a href ="list.html">📋 Expense List➡ </a>
+    <a href ="monthly.html"> 🗓️ Monthly view ➡</a>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
