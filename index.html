@@ -12,7 +12,7 @@
     <h2>💰 Expense Tracker</h2>
 
     <input type="number" id="amount" placeholder="Enter Amount (₹)">
-   <select id="category">
+   <select id="category" required >
   <option value="">Select Category</option>
   <option value="Food">Food</option>
     <option value="Petrol">Petrol</option>
@@ -20,11 +20,15 @@
   <option value="Train">Train Transport </option>
   <option value="metro">Metro Transport </option>
   <option value="Shopping">Shopping</option>
-  <option value="Bills">Bills</option>
-  <option value="Other">Other</option>
+  <option value=" Mobile Recharge"> mobile Recharge</option>
+  <option value=" shampoo"> shampoo</option>
+  <option value=" books"> books</option>
+   <option value="medicine">medicine</option>
+   <option value="bills">bills</option>
+    <option value="others "> others </option>
 </select>
 
-    <input type="date" id="date">
+    <input type="date" id="date" required >
 
  <button onclick="addExpense()">➕ ADD EXPENSE</button>
 
